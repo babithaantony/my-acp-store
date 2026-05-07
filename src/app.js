@@ -3,6 +3,7 @@ import { authenticate } from './middleware/auth.js';
 import { errorHandler, notFoundHandler } from './middleware/errorHandler.js';
 import productsRouter from './routes/products.js';
 import checkoutSessionsRouter from './routes/checkoutSessions.js';
+import pspRouter from './routes/psp.js';
 
 const ACP_VERSION = '2026-04-17';
 
@@ -35,6 +36,7 @@ app.use(authenticate);
 
 app.use('/products', productsRouter);
 app.use('/checkout_sessions', checkoutSessionsRouter);
+app.use('/psp', pspRouter);
 
 app.use(notFoundHandler);
 app.use(errorHandler);
