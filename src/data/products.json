@@ -1,0 +1,256 @@
+[
+  {
+    "id": "prod_001",
+    "title": "Wireless Noise-Canceling Headphones",
+    "description": {
+      "type": "plain_text",
+      "content": "Premium wireless headphones with active noise cancellation, 30-hour battery life, and studio-quality sound. Foldable design with carrying case included."
+    },
+    "url": "https://store.example.com/products/wireless-headphones",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://images.example.com/headphones-black.jpg",
+        "alt": "Wireless Noise-Canceling Headphones in Black"
+      },
+      {
+        "type": "image",
+        "url": "https://images.example.com/headphones-silver.jpg",
+        "alt": "Wireless Noise-Canceling Headphones in Silver"
+      }
+    ],
+    "variants": [
+      {
+        "id": "var_001_black",
+        "title": "Black",
+        "price": { "amount": 29999, "currency": "USD" },
+        "list_price": { "amount": 34999, "currency": "USD" },
+        "availability": { "available": true, "status": "in_stock" },
+        "variant_options": [{ "name": "Color", "value": "Black" }],
+        "categories": [{ "name": "Electronics" }, { "name": "Audio" }],
+        "media": [
+          {
+            "type": "image",
+            "url": "https://images.example.com/headphones-black.jpg",
+            "alt": "Black variant"
+          }
+        ]
+      },
+      {
+        "id": "var_001_silver",
+        "title": "Silver",
+        "price": { "amount": 29999, "currency": "USD" },
+        "list_price": { "amount": 34999, "currency": "USD" },
+        "availability": { "available": true, "status": "in_stock" },
+        "variant_options": [{ "name": "Color", "value": "Silver" }],
+        "categories": [{ "name": "Electronics" }, { "name": "Audio" }],
+        "media": [
+          {
+            "type": "image",
+            "url": "https://images.example.com/headphones-silver.jpg",
+            "alt": "Silver variant"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prod_002",
+    "title": "Trail Running Shoes",
+    "description": {
+      "type": "plain_text",
+      "content": "Lightweight, durable trail running shoes with responsive cushioning and grippy outsole. Water-resistant upper keeps feet dry on wet terrain."
+    },
+    "url": "https://store.example.com/products/trail-running-shoes",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://images.example.com/shoes-blue-9.jpg",
+        "alt": "Trail Running Shoes"
+      }
+    ],
+    "variants": [
+      {
+        "id": "var_002_blue_9",
+        "title": "Blue / Size 9",
+        "price": { "amount": 13499, "currency": "USD" },
+        "availability": { "available": true, "status": "in_stock" },
+        "variant_options": [
+          { "name": "Color", "value": "Blue" },
+          { "name": "Size", "value": "9" }
+        ],
+        "categories": [{ "name": "Apparel" }, { "name": "Footwear" }]
+      },
+      {
+        "id": "var_002_blue_10",
+        "title": "Blue / Size 10",
+        "price": { "amount": 13499, "currency": "USD" },
+        "availability": { "available": true, "status": "in_stock" },
+        "variant_options": [
+          { "name": "Color", "value": "Blue" },
+          { "name": "Size", "value": "10" }
+        ],
+        "categories": [{ "name": "Apparel" }, { "name": "Footwear" }]
+      },
+      {
+        "id": "var_002_orange_9",
+        "title": "Orange / Size 9",
+        "price": { "amount": 13499, "currency": "USD" },
+        "availability": { "available": false, "status": "out_of_stock" },
+        "variant_options": [
+          { "name": "Color", "value": "Orange" },
+          { "name": "Size", "value": "9" }
+        ],
+        "categories": [{ "name": "Apparel" }, { "name": "Footwear" }]
+      },
+      {
+        "id": "var_002_orange_10",
+        "title": "Orange / Size 10",
+        "price": { "amount": 13499, "currency": "USD" },
+        "availability": { "available": true, "status": "limited_stock" },
+        "variant_options": [
+          { "name": "Color", "value": "Orange" },
+          { "name": "Size", "value": "10" }
+        ],
+        "categories": [{ "name": "Apparel" }, { "name": "Footwear" }]
+      }
+    ]
+  },
+  {
+    "id": "prod_003",
+    "title": "Programmable Espresso Machine",
+    "description": {
+      "type": "plain_text",
+      "content": "15-bar pump pressure espresso machine with built-in grinder, milk frother, and touchscreen display. Programmable shot volumes and temperature control."
+    },
+    "url": "https://store.example.com/products/espresso-machine",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://images.example.com/espresso-machine.jpg",
+        "alt": "Programmable Espresso Machine"
+      }
+    ],
+    "variants": [
+      {
+        "id": "var_003_standard",
+        "title": "Stainless Steel",
+        "price": { "amount": 59999, "currency": "USD" },
+        "list_price": { "amount": 69999, "currency": "USD" },
+        "availability": { "available": true, "status": "in_stock" },
+        "variant_options": [{ "name": "Finish", "value": "Stainless Steel" }],
+        "categories": [{ "name": "Home & Kitchen" }, { "name": "Coffee & Espresso" }]
+      }
+    ]
+  },
+  {
+    "id": "prod_004",
+    "title": "Full-Grain Leather Bifold Wallet",
+    "description": {
+      "type": "plain_text",
+      "content": "Slim bifold wallet crafted from full-grain vegetable-tanned leather. Features 6 card slots, 2 cash compartments, and RFID blocking protection."
+    },
+    "url": "https://store.example.com/products/leather-wallet",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://images.example.com/wallet-brown.jpg",
+        "alt": "Full-Grain Leather Bifold Wallet"
+      }
+    ],
+    "variants": [
+      {
+        "id": "var_004_brown",
+        "title": "Tan Brown",
+        "price": { "amount": 7999, "currency": "USD" },
+        "availability": { "available": true, "status": "in_stock" },
+        "variant_options": [{ "name": "Color", "value": "Tan Brown" }],
+        "categories": [{ "name": "Accessories" }, { "name": "Wallets" }]
+      },
+      {
+        "id": "var_004_black",
+        "title": "Midnight Black",
+        "price": { "amount": 7999, "currency": "USD" },
+        "availability": { "available": true, "status": "in_stock" },
+        "variant_options": [{ "name": "Color", "value": "Midnight Black" }],
+        "categories": [{ "name": "Accessories" }, { "name": "Wallets" }]
+      }
+    ]
+  },
+  {
+    "id": "prod_005",
+    "title": "Adjustable Aluminum Laptop Stand",
+    "description": {
+      "type": "plain_text",
+      "content": "Ergonomic aluminum laptop stand with 6 height settings (4.5\"–9.5\"), foldable for portability. Compatible with 10\"–17\" laptops and tablets."
+    },
+    "url": "https://store.example.com/products/laptop-stand",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://images.example.com/laptop-stand-silver.jpg",
+        "alt": "Adjustable Aluminum Laptop Stand"
+      }
+    ],
+    "variants": [
+      {
+        "id": "var_005_silver",
+        "title": "Silver",
+        "price": { "amount": 4999, "currency": "USD" },
+        "availability": { "available": true, "status": "in_stock" },
+        "variant_options": [{ "name": "Color", "value": "Silver" }],
+        "categories": [{ "name": "Tech Accessories" }, { "name": "Desk Setup" }]
+      },
+      {
+        "id": "var_005_spacegray",
+        "title": "Space Gray",
+        "price": { "amount": 4999, "currency": "USD" },
+        "availability": { "available": true, "status": "in_stock" },
+        "variant_options": [{ "name": "Color", "value": "Space Gray" }],
+        "categories": [{ "name": "Tech Accessories" }, { "name": "Desk Setup" }]
+      }
+    ]
+  },
+  {
+    "id": "prod_006",
+    "title": "Extra-Thick Yoga & Pilates Mat",
+    "description": {
+      "type": "plain_text",
+      "content": "6mm thick non-slip yoga mat made from eco-friendly TPE foam. Includes alignment lines, carry strap, and is moisture-resistant and easy to clean."
+    },
+    "url": "https://store.example.com/products/yoga-mat",
+    "media": [
+      {
+        "type": "image",
+        "url": "https://images.example.com/yoga-mat-purple.jpg",
+        "alt": "Extra-Thick Yoga Mat"
+      }
+    ],
+    "variants": [
+      {
+        "id": "var_006_purple",
+        "title": "Lavender Purple",
+        "price": { "amount": 3499, "currency": "USD" },
+        "availability": { "available": true, "status": "in_stock" },
+        "variant_options": [{ "name": "Color", "value": "Lavender Purple" }],
+        "categories": [{ "name": "Sports & Fitness" }, { "name": "Yoga" }]
+      },
+      {
+        "id": "var_006_teal",
+        "title": "Ocean Teal",
+        "price": { "amount": 3499, "currency": "USD" },
+        "availability": { "available": true, "status": "in_stock" },
+        "variant_options": [{ "name": "Color", "value": "Ocean Teal" }],
+        "categories": [{ "name": "Sports & Fitness" }, { "name": "Yoga" }]
+      },
+      {
+        "id": "var_006_charcoal",
+        "title": "Charcoal Gray",
+        "price": { "amount": 3499, "currency": "USD" },
+        "availability": { "available": true, "status": "limited_stock" },
+        "variant_options": [{ "name": "Color", "value": "Charcoal Gray" }],
+        "categories": [{ "name": "Sports & Fitness" }, { "name": "Yoga" }]
+      }
+    ]
+  }
+]
